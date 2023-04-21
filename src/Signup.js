@@ -1,9 +1,11 @@
 import React from "react";
+import Signupjs from  "./Signupjs";
 import "./Signup.css";
 
 const Signup = () => {
   return (
     <>
+    <Signupjs/>
       <form className="container">
         <h2 className="heading">Sign Up</h2>
         <div className="steps-container">
@@ -55,7 +57,7 @@ const Signup = () => {
                   placeholder="Last Name"
                 />
               </div>
-              <button className="button-nex" onclick="NextSlide(1)">
+              <button className="button-nex" onclick="NextSlide(1,event)">
                 Next
               </button>
             </div>
@@ -84,7 +86,7 @@ const Signup = () => {
                 placeholder="Email"
               />
 
-              <button className="button-nex" onclick="NextSlide(2)">
+              <button className="button-nex" onclick="NextSlide(2,event)">
                 Next
               </button>
             </div>
@@ -113,7 +115,7 @@ const Signup = () => {
                 className="confirm-password"
                 placeholder="Confirm Your Password"
               />
-              <button className="button-nex" onclick="NextSlide(3)">
+              <button className="button-nex" onclick="NextSlide(3,event)">
                 Next
               </button>
             </div>
