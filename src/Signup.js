@@ -33,7 +33,7 @@ const Signup = () => {
               <ul className="rules">
                 <li>
                   Your username should only contain letters, numbers,
-                  underscores or hyphens.{" "}
+                  underscores or hyphens.
                 </li>
                 <li>No spaces or special characters allowed.</li>
                 <li>
