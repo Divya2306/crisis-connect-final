@@ -1,6 +1,6 @@
 import React from "react";
-import "./Login.scss";
-// import Signup from "./Signup";
+import "./Login.css";
+import Signup from "./Signup";
 
 const Login = () => {
   return (
