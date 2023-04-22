@@ -9,8 +9,9 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url(https://c4.wallpaperflare.com/wallpaper/531/951/621/digital-digital-art-artwork-illustration-minimalism-hd-wallpaper-preview.jpg);
+	background-image: url("Abstract Paper.jpg");
 	background-size: cover;
+	/* max-width: 100vw; */
 }
 
 .login_box{
