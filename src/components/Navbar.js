@@ -1,39 +1,44 @@
 import React from "react";
+import logo from "../LOGO.JPG";
 import "./Navbar.css";
 
 const Navbar = () => {
-    return(
-<header>
-    <div class="logo"><a href=""><strong>LogoOfBrand</strong></a></div>
-        <div class="burger "><i class="ri-menu-line icon"></i></div>
-        <nav class="navbar">
-            <ul class="icons">
-                <a href="">
-                    <li><i class="ri-account-circle-line icon" title="Account"></i></li>
-                </a>
-                <a href="">
-                    <li><i class="ri-shopping-basket-line icon" title="Shopping"></i></li>
-                </a>
-            </ul>
-            <ul class="links">
-                <a href="">
-                    <li>About</li>
-                </a>
-                <a href="">
-                    <li>Product</li>
-                </a>
-                <a href="">
-                    <li>Service</li>
-                </a>
-                <a href="">
-                    <li>Contact</li>
-                </a>
-            </ul>
-        </nav>
-    </header>
+  return (
+    <nav>
+      <div class="nav">
+        <input type="checkbox" id="nav-check" />
+        <div class="nav-header">
+          <div class="nav-title"><span class="crisis"><b>CrisisConnect</b></span></div>
 
-    );
-  };
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
   
+        <div class="nav-links">
+          <a href="#" target="_blank">
+            <b>Home</b>
+          </a>
+          <a href="#" target="_blank">
+            <b>About</b>
+          </a>
+          <a href="#" target="_blank">
+            <b>Blog</b>
+          </a>
+          <a href="#" target="_blank">
+          <b>First Aid</b>
+          </a>
+          <a href="#" target="_blank">
+          <b>Contact Us</b>
+          </a>
+        </div>
+      </div>
+    </nav>
+  );
+};
 
 export default Navbar;

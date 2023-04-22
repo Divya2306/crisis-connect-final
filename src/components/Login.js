@@ -1,5 +1,6 @@
 import React from "react";
 import "./Login.css";
+import Signup from "./Signup";
 
 const Login = () => {
   return (
@@ -28,7 +29,7 @@ const Login = () => {
           <div>
             <div class="reg">
               <p>Don't have a account </p>
-              <a exact href="#">
+              <a exact href="/signup">
                 Sign Up
               </a>
             </div>
