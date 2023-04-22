@@ -1,11 +1,12 @@
 .nav {
-    height: 50px;
-    width: 90vw;
-    padding: 25px;
+    height: 53px;
+    width: 98.7vw;
+    /* padding: 25px; */
     position: sticky;
     display: flex;
     justify-content: space-between;
-    margin-left: 50px;
+    margin-left: 0px;
+    background: #3ed1cc;
 }
 
 .nav>.nav-header {
@@ -33,11 +34,11 @@
     display: inline-block;
     padding: 13px 10px 13px 10px;
     text-decoration: none;
-    color: #efefef;
+    color: #ffffff;
 }
 
 .nav>.nav-links>a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .nav>#nav-check {
@@ -68,7 +69,7 @@
         display: block;
         width: 25px;
         height: 10px;
-        border-top: 2px solid #eee;
+        border-top: 2px solid #eeeeee;
     }
 
     .nav>.nav-links {

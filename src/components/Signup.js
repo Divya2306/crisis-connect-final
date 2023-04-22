@@ -44,7 +44,7 @@ const Signup = () => {
 		</div>
 		<div class="input_box">
 			<input id="password" type="password" required=""/>
-			<label for="">password</label>
+			<label for="">Password</label>
 		</div>
 		<div class="rem">
 			<input id="chack" type="checkbox"/>

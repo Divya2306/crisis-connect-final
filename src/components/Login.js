@@ -15,7 +15,7 @@ const Login = () => {
           </div>
           <div class="input_box">
             <input type="password" required="" />
-            <label for="">password</label>
+            <label for="">Password</label>
             <ion-icon class="icon" name="lock-closed-outline"></ion-icon>
           </div>
           <div className="rem">
