@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Login.css";
 import Signup from "./Signup";
 
@@ -24,7 +25,8 @@ const Login = () => {
             <a href="#">Forget Password</a>
           </div>
           <div class="login">
-            <button>Log in </button>
+            <button><Link to="/mainpage" className="loginlink">Log in </Link></button>   
+            {/* to be editted */}
           </div>
           <div>
             <div class="reg">

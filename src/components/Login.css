@@ -108,7 +108,9 @@ h1{
 	outline:none;
 	transition: .3s;
 }
-
+.login button .loginlink{
+	text-decoration: none;
+}
 .reg{
 	display: flex;
 	justify-content: center;

@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+* {
+  box-sizing: border-box;
+
+}
+/* body{
+    margin: 0px;
+} */
+
+.main-heading {
+  font-family: "Lato", sans-serif;
+}
+
+.main-heading a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-heading ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container-home {
+  /* width: 960px; */
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.mobile{
+    position: absolute;
+    /* float: right; */
+    right: 15px;
+    top: 135px;
+    
+}
+.mobile .img{
+    margin-top: 10px;
+}
+
+.main-heading {
+  position: relative;
+  background-image: url("../trials/pics/Simple Shiny.png");
+    background-attachment: fixed;
+height: 50vw;
+width: 100vw;
+  background-size: cover;
+}
+.imgg{
+    margin-top: 60px;
+}
+.main-heading .tagline{
+    margin-top: 100px ;
+    left: 0;
+    /* padding: 25px 30px; */
+}
+
+.main-heading .menu {
+  display: none;
+}
+.main-heading .app-icons {
+  position: absolute;
+  max-width: 450px;
+  top: 40%;
+  right: 20px;
+  opacity: 0.4;
+}
+.main-heading .overlay-home {
+  /* background: rgba(62, 209, 204, 0.9); */
+  padding: 0px 0px 80px 0px;
+}
+
+.container-home header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px;
+}
+.container-home header .logo {
+  display: flex;
+  align-items: center;
+}
+.container-home header .logo img {
+  width: 300px;
+  height: 300px;
+  margin-right: 10px;
+  margin-top: 70px;
+}
+.container-home header .logo span {
+  font-size: 40px;
+  color: white;
+  width: 50px;
+}
+.navbar-home{
+    /* margin: auto; */
+    /* background-color: black; */
+    padding: 3px 3px;
+    height: 10vw;
+    width: 100%;
+    margin-top: 0px;
+    
+}
+.navbar-home .logo{
+    margin-top: 2px;
+}
+.container-home header .navi a {
+    position: relative;
+    top: 10px;
+  margin: auto;
+    display: inline-block;
+  padding: 15px 20px;
+  margin-left: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.container-home header .navi a.active {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+.content .content-wrapper {
+  width: 500px;
+}
+.content .content-wrapper .blob {
+  font-size: 50px;
+  font-weight: 300;
+  text-align: left;
+  margin-bottom: 20px;
+  color: white;
+}
+.content .content-wrapper .button-wrapper {
+  margin-top: 50px;
+  display: flex;
+  /* margin-left: 50px; */
+}
+
+.button-wrapper{
+    margin-left: 23px;
+}
+.content .content-wrapper .button-wrapper .button {
+  margin-right: 20px;
+  padding: 25px 30px;
+  background: #ec2c82;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.content .content-wrapper .button-wrapper .button.ask {
+  background: rgba(0, 0, 0, 0.4);
+}
+.content .content-wrapper .button-wrapper .button span {
+  margin-left: 20px;
+}
+@media (max-width: 750px) {
+    .main-heading .app-icons {
+      display: none;
+    }
+    .main-heading .navi {
+      display: none;
+    }
+    .main-heading .menu {
+      display: block;
+      font-size: 40px;
+      color: white;
+      cursor: pointer;
+    }
+    .main-heading .container-home .logo img {
+      /* width: 40px; */
+    }
+    .main-heading .container-home .logo span {
+      font-size: 30px;
+      margin-left: 10px;
+    }
+    .main-heading .content .content-wrapper .blob {
+      font-size: 40px;
+      text-align: center;
+    }
+    .main-heading .content .content-wrapper .button-wrapper {
+      justify-content: center;
+    }
+    .main-heading .content .content-wrapper .button-wrapper .button {
+      font-size: 10px;
+      padding: 20px 10px;
+    }
+  
+    .footer {
+      padding: 10px 0px;
+    }
+    .footer .col-wrapper {
+      display: block;
+    }
+    .footer .col-wrapper .col-1 {
+      width: 90%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .footer .col-wrapper .col-1:last-child {
+      margin-bottom: 0px;
+    }
+    .footer .col-wrapper .logo {
+      display: block;
+    }
+    .footer .col-wrapper .logo img {
+      width: 50px;
+      display: block;
+      margin: 0 auto;
+    }
+    .footer .col-wrapper .logo span {
+      font-size: 40px;
+    }
+  
+    #social-media {
+      padding: 0px;
+    }
+    #social-media .social-wrapper {
+      display: block;
+      text-align: center;
+    }
+    #social-media .social-wrapper .slug {
+      display: block;
+    }
+    #social-media .social-wrapper .icons {
+      margin: 20px 0px;
+    }
+  
+    #how-it-works {
+      padding: 40px 20px;
+    }
+    #how-it-works .intro {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    #how-it-works .intro span {
+      margin-left: 5px;
+      font-size: 12px;
+    }
+    #how-it-works .slug {
+      color: black;
+      font-size: 14px;
+    }
+    #how-it-works .title {
+      font-size: 30px;
+    }
+    #how-it-works .content {
+      max-width: 360px;
+      margin-bottom: 20px;
+      font-size: 18px;
+    }
+    #how-it-works .icon-wrapper {
+      display: block;
+      width: 100%;
+    }
+    #how-it-works .icon-wrapper .icon {
+      width: 100%;
+    }
+    #how-it-works .icon-wrapper .icon i {
+      font-size: 20px;
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+    }
+    #how-it-works .icon-wrapper .icon p {
+      font-weight: 300;
+    }
+  
+    #question {
+      padding: 20px 0px 80px;
+    }
+    #question .title {
+      font-size: 30px;
+    }
+    #question .content {
+      max-width: 450px;
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+    #question .form {
+      max-width: 360px;
+    }
+    #question .form input {
+      padding: 10px;
+    }
+  
+    #talk {
+      padding: 20px 30px;
+    }
+    #talk .title {
+      margin-top: 20px;
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 30px;
+    }
+    #talk .content {
+      text-align: center;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    #talk .col-wrapper {
+      display: block;
+    }
+    #talk .col-wrapper .col-50 {
+      width: 100%;
+      padding: 20px 0px;
+    }
+    #talk .col-wrapper .col-50:last-child {
+      min-height: 400px;
+      padding: 0px 30px;
+      background-position: top left;
+    }
+  
+    #signup {
+      padding: 20px;
+    }
+    #signup .slug {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    #signup .title {
+      font-size: 30px;
+    }
+    #signup .content {
+      font-size: 14px;
+    }
+    #signup .button-wrapper button {
+      font-size: 12px;
+      padding: 20px 20px;
+      margin: 0px 5px;
+    }
+  }

@@ -109,6 +109,11 @@ h1{
 	border: none;
 	outline:none;
 	transition: .3s;
+	
+}
+
+.login .signuplink{
+	text-decoration: none;
 }
 
 .reg{
