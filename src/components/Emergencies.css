@@ -2,14 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #9daca9;
+    background-color: #9daca9 !important;
 }
-.card {
-    background-color: #9daca9;
-    width: 700px;
+.cardd {
+    background-color: #2fac93 important;
+    width: 50%;
     height: 100vh;
     color: white;
     display: grid;
+    grid-row: auto auto;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 5px;
@@ -22,7 +23,7 @@
     padding-bottom: 25px;
    }
    
-   .card .item {
+   .cardd .item {
     border-radius: 10px;
     width: 300px;
     height: 280px;

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Sos.css";
 
 const Sos = () => {
@@ -7,10 +8,11 @@ const Sos = () => {
       <div class="android">
         <div class="panic_button">
           <div class="panic_text">
+          <Link to="/emergency">
             <svg
               class="inactive"
-              width="106px"
-              height="64px"
+              width="150px"
+              height="90px"
               viewBox="47 74 106 64"
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
@@ -39,8 +41,8 @@ const Sos = () => {
 
             <svg
               class="active"
-              width="103px"
-              height="65px"
+              width="150px"
+              height="90px"
               viewBox="566 517 103 65"
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
@@ -74,6 +76,7 @@ const Sos = () => {
                 </text>
               </g>
             </svg>
+            </Link>
           </div>
           <div class="button"></div>
         </div>

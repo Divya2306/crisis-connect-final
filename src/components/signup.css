@@ -124,10 +124,10 @@ h1{
 	color: #ffff;
 }
 
-.reg a{
+.reg .loginlink{
 	text-decoration: none;
 	margin-left: 5px;
-	color: #fff;
+	color: rgb(255, 250, 250);
 	font-weight: bold;
 }
 

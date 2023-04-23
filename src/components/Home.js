@@ -15,9 +15,9 @@ const Home = () => {
               <div className="logo">
                 <img src={logo} alt="" />
               </div>
-              <div className="navi">
-                <Link to="/signup">SignUp</Link>
-                <Link to="/login" className="active">
+              <div className="navii">
+                <Link to="/signup" className="navlinks">SignUp</Link>
+                <Link to="/login" className="active navlinks">
                   Login
                 </Link>
               </div>

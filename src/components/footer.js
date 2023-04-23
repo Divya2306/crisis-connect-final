@@ -1,4 +1,6 @@
 import React from 'react';
+import logo from "../trials/pics/logobw (1).png";
+import logo2 from "../trials/pics/favicon_io2/apple-touch-icon.png";
 import "./footer.css";
 
 function footer() {
@@ -44,7 +46,7 @@ function footer() {
       <div class="social-wrapper">
         <div class="copyright">Copyright &copy; Tech Mavericks</div>
         <div class="icons"><i class="fa fa-facebook"></i><i class="fa fa-twitter"></i></div>
-        <div class="slug"><span>Made with Love By</span><img src="https://images.vexels.com/media/users/3/142777/isolated/preview/84711206e52e0d4ff6c793cb476ea264-heartbeat-star-medical-logo-by-vexels.png" alt=""/></div>
+        {/* <div class="slug"><span>Made with Love By</span><img src={logo} alt="hello"/></div> */}
       </div>
     </div>
   </section>

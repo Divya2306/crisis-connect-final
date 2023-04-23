@@ -1,40 +1,41 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // import logo from "../trials/picsLOGO.JPG";
 import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <nav>
-      <div class="nav">
-        <input type="checkbox" id="nav-check" />
-        <div class="nav-header">
-          <div class="nav-title"><span class="crisis"><b>CrisisConnect</b></span></div>
+      <div class="navi">
+        <input type="checkbox" id="navi-check" />
+        <div class="navi-header">
+          <div class="navi-title"><span class="crisis"><b>CrisisConnect</b></span></div>
 
         </div>
-        <div class="nav-btn">
-          <label for="nav-check">
+        <div class="navi-btn">
+          <label for="navi-check">
             <span></span>
             <span></span>
             <span></span>
           </label>
         </div>
   
-        <div class="nav-links">
-          <a href="#" target="_blank">
+        <div class="navi-links">
+          <Link to="/mainpage">
             <b>Home</b>
-          </a>
-          <a href="#" target="_blank">
+          </Link>
+          <Link to="/aboutus">
             <b>About</b>
-          </a>
-          <a href="#" target="_blank">
+          </Link>
+          <Link to="/blog">
             <b>Blog</b>
-          </a>
-          <a href="#" target="_blank">
+          </Link>
+          <Link to="/">
           <b>First Aid</b>
-          </a>
-          <a href="#" target="_blank">
+          </Link>
+          <Link to="/">
           <b>Contact Us</b>
-          </a>
+          </Link>
         </div>
       </div>
     </nav>

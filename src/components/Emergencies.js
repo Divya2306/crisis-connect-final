@@ -9,7 +9,7 @@ const Emergencies = () => {
   return (
     <>
     <div className="container-emergency">
-      <div className="card">
+      <div className="cardd">
         <div className="item item--1">
         <img src={ambulance} alt="" srcset="" />
           <span className="text text--1"> Ambulance </span>
