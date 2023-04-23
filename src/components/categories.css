@@ -16,7 +16,9 @@ body {
   a:focus {
     outline: none;
   }
-  
+  .main-container{
+    border: none;
+  }
   /* Heading Styles Starts */
   
   h1,
@@ -151,7 +153,7 @@ body {
   .btn-transparent {
     color: #fff;
     background: none;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
   }
   .btn-transparent:hover,
   .btn-transparent:focus,
