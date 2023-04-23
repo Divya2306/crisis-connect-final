@@ -3,20 +3,20 @@
   box-sizing: border-box;
 
 }
-body{
+/* body{
     margin: 0px;
-}
+} */
 
-html, body {
+.main-heading {
   font-family: "Lato", sans-serif;
 }
 
-a {
+.main-heading a {
   text-decoration: none;
   color: black;
 }
 
-ul {
+.main-heading ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -44,7 +44,7 @@ ul {
   background-image: url("../trials/pics/Simple Shiny.png");
     background-attachment: fixed;
 height: 50vw;
-width: 100vw;
+width: 100%;
   background-size: cover;
 }
 .imgg{
@@ -104,7 +104,7 @@ width: 100vw;
 .navbar-home .logo{
     margin-top: 2px;
 }
-.container-home header .navi a {
+.container-home header .navii .navlinks {
     position: relative;
     top: 10px;
   margin: auto;
@@ -115,7 +115,7 @@ width: 100vw;
   text-transform: uppercase;
   font-size: 12px;
 }
-.container-home header .navi a.active {
+.container-home header .navii .navlinks.active {
   background: rgba(0, 0, 0, 0.3);
   border-radius: 20px;
 }
@@ -161,7 +161,7 @@ width: 100vw;
     .main-heading .app-icons {
       display: none;
     }
-    .main-heading .navi {
+    .main-heading .navii {
       display: none;
     }
     .main-heading .menu {
